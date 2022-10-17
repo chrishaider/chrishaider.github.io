@@ -1,18 +1,15 @@
 $(document).ready(function(){
     $("#preloader").fadeOut("slow");
 
-    if($(window).scrollTop() > 400) {
-        $("#navigation").css("background-color","#726DA8");
-    } else {
-        $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
-    }
 });
 
 $(window).scroll(function(){
-    if($(window).scrollTop() > 400) {
+    if($(window).scrollTop() > 200) {
         $("#navigation").css("background-color","#726DA8");
+        $(".logo g").addClass("negative");
     } else {
         $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
+        $(".logo g").removeClass("negative");
     }
 });
 
