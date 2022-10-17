@@ -1,0 +1,16 @@
+groups:
+  - name: "FH Hagenberg"
+    adress: 
+      street: "Softwarepark 11"
+      zip: "4232"
+      city: "Hagenberg"
+      state:
+        en: "Upper Austria"
+        de: "Oberösterreich"
+      country:
+        en: "Austria"
+        de: "Österreich"
+    members:
+      - nick: chaider
+        firstname: Christian
+        lastname: Haider

@@ -14,6 +14,9 @@ $link-color: rgb(16, 22, 54);
 $primary-background: rgb(16, 22, 54);
 $secondary-background: #726DA8;
 $highlight-background: #819C8A;
+$font-size-xxl: 2.1rem;
+$font-size-xl:1.8rem;
+$font-size-large:1.5rem;
 $base-font-size: 1.1rem;
 $font-size-middle: 1.2rem;
 $font-size-small: 0.95rem;
@@ -27,7 +30,36 @@ $on-laptop:        800px !default;
     }
   }
 
+$sans-serif-font-stack: 'Roboto', 'Arial', 'sans-serif';
 
+// Source Serif Pro
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto/Roboto-Italic.ttf");  
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto/Roboto-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto/Roboto-Black.ttf");
+  font-weight: 900;
+}
+
+$subsection-top-padding:100px;
 
 
 $header-background: green;

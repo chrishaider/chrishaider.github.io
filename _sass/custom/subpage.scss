@@ -1,0 +1,46 @@
+#subpage{
+    padding-top:$subsection-top-padding;
+    
+    h1, h2, h3, h4, h5 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color:$highlight-color;
+        font-size:$font-size-xxl;
+    }
+
+    h3 {
+        color:$secondary-color;
+        font-size:$font-size-large;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul > li {
+        list-style-type: none;
+    }
+
+    ul.dash {
+        margin: 15px 0 0 35px;;
+    }
+
+    ul.dash > li {
+        list-style-type: '- ';
+    }
+
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+    }
+
+    a:hover, a:active{
+        text-decoration: underline;
+        color: $link-color;
+    }
+}
+

@@ -1,3 +1,41 @@
+template:
+  nav:
+    home:
+      en: "Home"
+      de: "Home"
+    project:
+      en: "Project"
+      de: "Projekt"
+    news:
+      en: "News"
+      de: "Neuigkeiten"
+    team:
+      en: "Team"
+      de: "Team"
+    contact:
+      en: "Contact"
+      de: "Kontakt"
+  sub:
+    blog:
+      en: "Blog"
+      de: "Blog"
+  pages:
+    imprint:
+      en: "Imprint"
+      de: "Impressum"
+    dataprotection:
+      en: "Data Protection"
+      de: "Datenschutz"
+    press:
+      en: "Press Material"
+      de: "Pressematerial"
+    sitemap:
+      en: "Sitemap"
+      de: "Sitemap"
+
+
+
+
 months:
   ["Jänner", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember" ]
     
