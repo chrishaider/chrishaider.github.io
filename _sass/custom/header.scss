@@ -1,0 +1,65 @@
+#header-sec {
+    height: 100vh;
+    width:100%;
+    
+    background:
+    linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ), 
+    url(../../assets/img/stock_bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-caption{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-caption h2 {
+    color:$primary-color;
+    font-size: 62px;
+    font-weight: 300;
+}
+  
+  .header-caption h2 span {
+    font-weight: 800;
+}
+  
+.header-caption h3 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 6px 0 20px;
+    color:$white;
+}
+  
+.header-caption p {
+    color: $primary-color;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.header-caption p:before,
+.header-caption p:after {
+    color: $highlight-color;
+    content: "___";
+    position: relative;
+    top: -8px;
+}
+
+.header-caption p:before {
+    right: 20px;
+}
+
+.header-caption p:after {
+left: 20px;
+}

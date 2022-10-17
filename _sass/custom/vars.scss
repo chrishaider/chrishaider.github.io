@@ -1,0 +1,41 @@
+// ----------- COLORS -----------
+$black: #000;
+$white: #fff;
+$grey: #ccc;
+$dark-grey: darken($grey, 25%);
+$light-grey: rgb(233, 233, 233);
+$middle-grey: darken($grey, 15%);
+
+$primary-color: $white;
+$secondary-color: #726DA8;
+//$highlight-color: #0feb9e;
+$highlight-color: #7D8CC4;
+$link-color: rgb(16, 22, 54);
+$primary-background: rgb(16, 22, 54);
+$secondary-background: #726DA8;
+$highlight-background: #819C8A;
+$base-font-size: 1.1rem;
+$font-size-middle: 1.2rem;
+$font-size-small: 0.95rem;
+$small-font-size:  $base-font-size * 0.875 !default;
+$spacing-unit:     30px !default;
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+      @content;
+    }
+  }
+
+
+
+
+$header-background: green;
+
+$default-color: #fff;
+$dark-default:darken($default-color, 5%);
+$link-hover-color: $header-background;
+
+
+$heading-size: 12rem;
+$secondary-heading-font-size: 10rem;

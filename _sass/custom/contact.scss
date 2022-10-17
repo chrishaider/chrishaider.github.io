@@ -1,0 +1,21 @@
+#contact {
+    background:$light-grey;
+    padding-bottom:0;
+    h2{
+      color:$highlight-color;
+    }
+  
+    h3{
+      color:$highlight-color;
+      font-weight:bold;
+      font-size:1.2rem;
+    }
+  
+    p{
+      color:$black;
+    }
+  
+    .contact{
+      padding-bottom:60px;
+    }
+  }
