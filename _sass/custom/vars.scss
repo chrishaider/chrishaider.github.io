@@ -1,26 +1,23 @@
 // ----------- COLORS -----------
-$black: #000;
 $white: #fff;
-$grey: #ccc;
-$dark-grey: darken($grey, 25%);
-$light-grey: rgb(233, 233, 233);
-$middle-grey: darken($grey, 15%);
+$black: #000;
+$primary-color: #2A9D8F;
+$secondary-color: #264653;
+$light-color: #E9C46A;
+$soft-color: #F4A261;
+$highlight-color: #E76F51;
 
-$primary-color: $white;
-$secondary-color: #726DA8;
-//$highlight-color: #0feb9e;
-$highlight-color: #7D8CC4;
-$link-color: rgb(16, 22, 54);
-$primary-background: rgb(16, 22, 54);
-$secondary-background: #726DA8;
-$highlight-background: #819C8A;
-$font-size-xxl: 2.1rem;
-$font-size-xl:1.8rem;
-$font-size-large:1.5rem;
-$base-font-size: 1.1rem;
-$font-size-middle: 1.2rem;
-$font-size-small: 0.95rem;
-$small-font-size:  $base-font-size * 0.875 !default;
+$grey: #ccc;
+$light-grey: lighten($grey, 15%);
+
+$font-size-default:16px;
+$font-size-xl: 2.7em;
+$font-size-large: 2em;
+$font-size-big: 1.8em;
+$font-size-medium: 0.9em;
+$font-size-small: 0.75em;
+$font-size-tiny: 0.6em;
+
 $spacing-unit:     30px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -29,6 +26,9 @@ $on-laptop:        800px !default;
       @content;
     }
   }
+
+
+
 
 $sans-serif-font-stack: 'Roboto', 'Arial', 'sans-serif';
 
@@ -58,16 +58,3 @@ $sans-serif-font-stack: 'Roboto', 'Arial', 'sans-serif';
   src: url("../../assets/fonts/Roboto/Roboto-Black.ttf");
   font-weight: 900;
 }
-
-$subsection-top-padding:100px;
-
-
-$header-background: green;
-
-$default-color: #fff;
-$dark-default:darken($default-color, 5%);
-$link-hover-color: $header-background;
-
-
-$heading-size: 12rem;
-$secondary-heading-font-size: 10rem;

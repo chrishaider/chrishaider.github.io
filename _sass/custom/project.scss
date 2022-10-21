@@ -1,51 +1,30 @@
 #project{
-    background: $light-grey;
-    h2{
-      color:$highlight-color;
-      padding:0;
-      margin:0;
-    }
-  
-    .project-img{
-      max-width:80px;
-      max-height:80px;
-    }
-  
+  background: $light-grey;
+
+  .title-column {
+    background:$primary-color;
     h3{
-      color:$default-color;
-      font-size:1.8rem;
-      padding:0;
-      margin:0;
-      font-weight:bold;
-    }
-  
-    h4{
-      color:$black;
-      padding:0;
-      margin:0;
-      font-size:1.4rem;
-      font-weight:bold;
-    }
-  
-    ol {
-      padding-left:20px;
-      margin:0;
-    }
-  
-    .project-title-row{
-      padding-top:15px;
-    }
-  
-    .project-desc-row{
-      padding-top:25px;
-      padding-bottom:15px;
-    }
-  
-    .project-desc-column{
-      padding-left:25px;
-    }
-  
-    .title-column{
-      background:$highlight-color;
+      color: $white;
+      font-weight:600;
+      font-size:$font-size-large;
     }
   }
+
+  .project-img{
+    max-width:80px;
+    max-height:80px;
+  }
+
+  .project-title-row{
+    padding-top:15px;
+  }
+
+  .project-desc-row{
+    padding-top:25px;
+    padding-bottom:15px;
+  }
+
+  .project-desc-column{
+    padding-left:25px;
+  }
+}

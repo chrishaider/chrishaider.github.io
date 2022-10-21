@@ -1,12 +1,12 @@
 <section id="news">
     <div class="container">
-        <div class="row">
-            <div class="wow fadeInUp animated text-center secondary-heading" data-wow-duration="600ms">
+        <div class="row section-title">
+            <div class="wow fadeInUp animated text-center sub-heading" data-wow-duration="600ms">
                 <h2>Latest News</h2>
                 <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
-            <div class="text-center wow fadeInRight animated secondary-sub" data-wow-duration="400ms">
+            <div class="text-center wow fadeInRight animated section-description" data-wow-duration="400ms">
                 <p>Read our latest news at our blog!</p>
             </div>
         </div>
@@ -16,10 +16,10 @@
                 <div class="row latest-post-image">
                     <img src="{{ post.image | relative_url }}" alt="Team Member" class="img-fluid">
                 </div>
-                <div class="row">
+                <div class="row news-title">
                     <h4>
                         <a href="#">{{post.title}}</a>
-                        <span class="text-uppercase ml-4">{{post.tags}}</span>
+                        <span class="text-uppercase special">{{post.tags}}</span>
                     </h4>
                 </div>
                 <div class="row news-excerpt">

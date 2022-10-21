@@ -7,13 +7,13 @@ description: Erfahren Sie mehr über unsere aktuellen Tätigkeiten und News.
 
 <section id="mainblog">
     <div class="container">
-        <div class="row sep-headline">
-            <div class="wow fadeInUp animated text-center secondary-heading" data-wow-duration="600ms">
+        <div class="row section-title">
+            <div class="wow fadeInUp animated text-center sub-heading" data-wow-duration="600ms">
                 <h2>Blog</h2>
                 <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
-            <div class="text-center wow fadeInRight animated secondary-sub" data-wow-duration="400ms">
+            <div class="text-center wow fadeInRight animated section-description" data-wow-duration="400ms">
                 <p>Read our latest news at our blog!</p>
             </div>
         </div>
@@ -30,7 +30,7 @@ description: Erfahren Sie mehr über unsere aktuellen Tätigkeiten und News.
                         <div class="row">
                             <h4>
                                 <a href="#">{{post.title}}</a>
-                                <span class="text-uppercase ml-4">{{post.tags}}</span>
+                                <span class="text-uppercase ml-4 special">{{post.tags}}</span>
                             </h4>
                         </div>
                         <div class="row news-excerpt">
@@ -45,7 +45,7 @@ description: Erfahren Sie mehr über unsere aktuellen Tätigkeiten und News.
                 {%endfor%}
             </div>
             <div class="col-md-4">
-                <h2>Categories</h2>
+                <h1>Categories</h1>
                 <nav class="blog-side-nav">
                     {% for cat in site.tags %}
                         <div class="category">

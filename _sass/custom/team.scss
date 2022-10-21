@@ -1,13 +1,11 @@
 #team {
+    background: $light-grey;
     .member {
         width:273px;
         position: relative;
     }
 
     .member h4 {
-        color: #062033;
-        font-size: 18px;
-        font-weight: 600;
         line-height: 24px;
         margin: 15px 0 8px;
     }

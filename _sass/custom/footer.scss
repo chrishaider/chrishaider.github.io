@@ -1,20 +1,22 @@
 .footer{
-    background:$highlight-color;
+    background:$primary-color;
     margin:0;
-    border-top:5px solid $primary-background;
-  
-    h2,h3{
-      font-size:1.2rem;
-      padding:0 0 18px 0;
-      margin:0;
-      color:$default-color;
-    }
+    border-top:5px solid $secondary-color;
   
     p{
       padding:0;
       margin:0;
       font-size:0.9rem;
-      color:$default-color;
+      color:$white;
+    }
+
+    h2, h3 {
+      color:$secondary-color;
+      padding: 18px 0 18px 0;
+    }
+
+    a:hover {
+      color:$secondary-color;
     }
   
     a, a:hover, a:focus{
@@ -25,12 +27,9 @@
       font-size:0.9rem;
     }
   
-    a:hover {
-      color:$primary-background;
-    }
   
     a {
-      color: $default-color;
+      color: $white;
       -webkit-transition: all .3s ease-in 0s;
       -moz-transition: all .3s ease-in 0s;
       -ms-transition: all .3s ease-in 0s;
@@ -57,7 +56,7 @@
     .footer-disclosure {
       padding-top:35px;
       p {
-        color:$dark-default;
+        color:$white;
       }
     }
   }

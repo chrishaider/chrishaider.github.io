@@ -1,5 +1,5 @@
 #subpage{
-    padding-top:$subsection-top-padding;
+    padding:60px 0 40px 0;
     
     h1, h2, h3, h4, h5 {
         margin-top: 20px;
@@ -7,13 +7,8 @@
     }
 
     h2 {
-        color:$highlight-color;
-        font-size:$font-size-xxl;
-    }
-
-    h3 {
         color:$secondary-color;
-        font-size:$font-size-large;
+        font-size:1.6em;
     }
 
     ul {
@@ -26,7 +21,7 @@
     }
 
     ul.dash {
-        margin: 15px 0 0 35px;;
+        margin: 15px 0 0 35px;
     }
 
     ul.dash > li {
@@ -40,7 +35,7 @@
 
     a:hover, a:active{
         text-decoration: underline;
-        color: $link-color;
+        color: $secondary-color;
     }
 }
 
