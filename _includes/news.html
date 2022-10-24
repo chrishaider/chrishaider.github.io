@@ -14,11 +14,11 @@
             {% for post in site.posts limit:3%}
             <div class="col-md-4 latest-post">
                 <div class="row latest-post-image">
-                    <img src="{{ post.image | relative_url }}" alt="Team Member" class="img-fluid">
+                    <img src="{{ post.image | relative_url }}" title="{{post.title}}" alt="News Thumbnail" class="img-fluid">
                 </div>
                 <div class="row news-title">
                     <h4>
-                        <a href="#">{{post.title}}</a>
+                        <a href="{{post.url}}">{{post.title}}</a>
                         <span class="text-uppercase special">{{post.tags}}</span>
                     </h4>
                 </div>
