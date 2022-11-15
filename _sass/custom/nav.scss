@@ -1,6 +1,6 @@
 #navigation {
     background-color: rgba($secondary-color, 0.1);
-    border-bottom: 2px solid rgba($secondary-color, 0.9);
+    border-bottom: 2px solid rgba($primary-color, 0.7);
     margin: 0;
     -webkit-transition: background-color 800ms linear;
         -moz-transition: background-color 800ms linear;
@@ -25,8 +25,8 @@
     a.nav-link.active,
     a.nav-link:focus,
     a.nav-link:hover{
-      border-top:1px solid $primary-color;
-      color: $primary-color;
+      border-top:1px solid $highlight-color;
+      color: $highlight-color;
     }
   }
 

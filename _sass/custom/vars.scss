@@ -1,14 +1,16 @@
 // ----------- COLORS -----------
-$white: #fff;
+$white: #ECF4FE;
 $black: #000;
-$primary-color: #2A9D8F;
-$secondary-color: #264653;
+$primary-color: #020088;
+$secondary-color: #6F8AB7;
 $light-color: #E9C46A;
 $soft-color: #F4A261;
-$highlight-color: #E76F51;
+$highlight-color: #FFBF00;
 
+
+$highlight-color-darken: darken($highlight-color, 5%);
 $grey: #ccc;
-$light-grey: lighten($grey, 15%);
+$light-grey: lighten($grey, 5%);
 
 $font-size-default:16px;
 $font-size-xl: 2.7em;

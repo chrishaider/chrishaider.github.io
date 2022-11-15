@@ -5,10 +5,10 @@ $(document).ready(function(){
 
 $(window).scroll(function(){
     if($(window).scrollTop() > 200) {
-        $("#navigation").css("background-color","#726DA8");
+        $("#navigation").css("background-color","#6F8AB7");
         $(".logo g").addClass("negative");
     } else {
-        $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
+        $("#navigation").css("background-color","rgba(111, 138, 183, 0.2)");
         $(".logo g").removeClass("negative");
     }
 });

@@ -1,7 +1,7 @@
 .footer{
-    background:$primary-color;
+    background:$secondary-color;
     margin:0;
-    border-top:5px solid $secondary-color;
+    border-top:5px solid $primary-color;
   
     p{
       padding:0;
@@ -11,12 +11,12 @@
     }
 
     h2, h3 {
-      color:$secondary-color;
+      color:$highlight-color;
       padding: 18px 0 18px 0;
     }
 
     a:hover {
-      color:$secondary-color;
+      color:$highlight-color;
     }
   
     a, a:hover, a:focus{

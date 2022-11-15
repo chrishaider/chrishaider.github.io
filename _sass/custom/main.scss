@@ -11,7 +11,7 @@ body{
 }
 
 h1, h2, h3 {
-  color:$highlight-color;
+  color:$secondary-color;
   font-weight: 900;
 }
 
@@ -39,7 +39,7 @@ a:hover{
 }
 
 .highlight {
-  color:$primary-color;
+  color:$highlight-color;
 }
 
 .special {
@@ -53,7 +53,7 @@ section {
 .sub-heading {
   text-transform: uppercase;
   h2 {
-    color:$secondary-color;
+    color:$primary-color;
     font-weight:900;
   }
 }
@@ -68,12 +68,12 @@ section {
 }
 
 .devider {
-  color: $primary-color;
+  color: $secondary-color;
 }
 
 .devider::before, .devider:after{
   position: relative;
-  color: $primary-color;
+  color: $secondary-color;
   content: '________________';
   top:-6px;
 }

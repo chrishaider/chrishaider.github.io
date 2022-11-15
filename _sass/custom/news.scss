@@ -14,7 +14,7 @@
       a {
         font-size: 21px;
         text-decoration: none;
-        color:$primary-color;
+        color:$secondary-color;
       }
 
       a:hover {
@@ -56,6 +56,6 @@
     }
 
     a.post-link:hover {
-      color:$soft-color;
+      color:$highlight-color-darken;
     }
 }
