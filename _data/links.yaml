@@ -1,5 +1,68 @@
-fhooe: https://www.fh-ooe.at/
-heal: https://heal.heuristiclab.com/
-hl: https://dev.heuristiclab.com/
-uppervision: https://www.uppervision.at/
-github: https://github.com/chrishaider/chrishaider.github.io
+- quicklinks:
+  - link: fhooe
+    path: https://www.fh-ooe.at/
+    name:
+      de: FH Oberösterreich
+      en: University of Applied Sciences - Upper Austria
+  - link: heal
+    path: https://heal.heuristiclab.com/
+    name:
+      de: HEAL
+      en: HEAL
+  - link: hl
+    path: https://dev.heuristiclab.com/
+    name:
+      de: HeuristicLab
+      en: HeuristicLab
+- infolinks:
+  - link: imprint
+    path: "/imprint"
+    name:
+      de: Impressum
+      en: Imprint
+  - link: dataprotection
+    path: "/dataprotection"
+    name:
+      de: Dataprotection
+      en: Datenschutz
+  - link: sitemap
+    path: "/sitemap"
+    name:
+      de: Sitemap
+      en: Sitemap
+  - link: contact
+    path: "#contact"
+    name:
+      de: Kontakt
+      en: Contact
+  - link: press
+    path: "/press"
+    name:
+      de: Pressematerial
+      en: Press
+- sociallinks:
+  - link: instagram
+    path: "#"
+    name:
+      de: Instagram
+      en: Instagram
+    icon: fa-instagram
+  - link: github
+    path: "#"
+    name:
+      de: GitHub
+      en: GitHub
+    icon: fa-github
+  - link: rss
+    path: https://github.com/chrishaider/chrishaider.github.io
+    name:
+      de: RSS
+      en: RSS
+    icon: fa-rss
+- generallinks:
+  - link: uppervision
+    path: https://www.uppervision.at/
+    name:
+      de: UpperVision
+      en: UpperVision
+    printurl: www.uppervision.at

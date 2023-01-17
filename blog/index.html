@@ -45,17 +45,7 @@ description: Erfahren Sie mehr über unsere aktuellen Tätigkeiten und News.
                 {%endfor%}
             </div>
             <div class="col-md-4">
-                <h1>Categories</h1>
-                <nav class="blog-side-nav">
-                    {% for cat in site.tags %}
-                        <div class="category">
-                            <a href="#">
-                                <h4>{{cat.title}}</h4>
-                            </a>
-                            <p></p>
-                        </div>
-                    {%endfor%} 
-                </nav>
+                {% include blognav.html %}
             </div>
         </div>
     </div>

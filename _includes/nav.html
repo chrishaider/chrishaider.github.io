@@ -1,26 +1,44 @@
+{% if page.lang == site.lang or page.lang == [] %}
+    {% assign _lang = site.lang %}
+{% else %}
+    {% assign _lang = page.lang %}
+{% endif %}
+
+{%assign langurl = "/" | append: page.lang | append: "/" %}
+{% if page.url == "/" %}
+    {% capture baseurl %}/{% endcapture %}
+{% elsif page.url == langurl%}
+    {% capture baseurl %}{{langurl}}{% endcapture %}
+{% else %}
+    {% capture baseurl %}/{% endcapture %}
+{% endif %}
+
 <div id="navigation" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a href="/" class="navbar-brand justify-content-start">
-                    <div style="padding-top:10px">
-                        <object style="height:35px; width:auto" type="image/svg+xml" data="logo/logo.svg">
-                        </object>
-                    </div>
+                    {% include svg/l2.svg %}
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="/#body" class="nav-item nav-link active">Home</a>
-                        <a href="/#project" class="nav-item nav-link">Project</a>
-                        <a href="/#news" class="nav-item nav-link">News</a>
-                        <a href="/#team" class="nav-item nav-link">Team</a>
-                        <a href="/#contact" class="nav-item nav-link">Contact</a>
+                        {% for item in site.data.nav %}
+                            {% if item.hardlink %}
+                                {% capture baseurl %}/{% endcapture %}
+                            {% endif %}
+                            {% if forloop.first %}
+                                <a href="{{baseurl}}{{item['link']}}" class="active nav-item nav-link">{{item[_lang]}}</a>
+                            {% else %}
+                                <a href="{{baseurl}}{{item['link']}}" class="nav-item nav-link">{{item[_lang]}}</a>
+                            {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
             </div>
         </nav>
     </div>
 </div> 
+

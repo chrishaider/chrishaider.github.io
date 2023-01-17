@@ -3,16 +3,6 @@ $(document).ready(function(){
 
 });
 
-$(window).scroll(function(){
-    if($(window).scrollTop() > 200) {
-        $("#navigation").css("background-color","#6F8AB7");
-        $("g#logo .letter").css("fill","green");
-    } else {
-        $("#navigation").css("background-color","rgba(111, 138, 183, 0.2)");
-        $("g#logo .letter").css("fill","green");
-    }
-});
-
 var map = L.map('map').setView([48.36936535443323, 14.513704089483294], 8);
 
 
@@ -23,6 +13,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
+    scrollWheelZoom: false,
     accessToken: 'pk.eyJ1IjoianplbmlzZWsiLCJhIjoiY2wyeXIxNWVpMDJvMjNjcWJpYWloZ29vdSJ9.aVp5R2VZRdkWBrCdo8J90Q'
 }).addTo(map);
 

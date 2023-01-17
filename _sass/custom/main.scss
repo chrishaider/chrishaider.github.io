@@ -34,6 +34,10 @@ a {
   color:$primary-color;
 }
 
+a.active {
+  color:$highlight-color;
+}
+
 a:hover{
   color:$secondary-color;
 }
@@ -48,6 +52,10 @@ a:hover{
 
 section {
   padding-block: 70px;
+}
+
+#contactMap {
+  padding-top: 30px;
 }
 
 section#team, section#news, section#project {
@@ -92,5 +100,19 @@ section#team, section#news, section#project {
 
 .pad-bottom-40{
   padding-bottom: 40px;
+}
+
+.fincom-logo {
+  position:relative;
+  height:40px;
+  top:5px;
+
+  .letter {
+    fill:#fff;
+  }
+
+  .circle {
+    stroke:#fff;
+  }
 }
 
