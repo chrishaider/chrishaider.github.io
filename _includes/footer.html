@@ -3,6 +3,17 @@
 {% else %}
     {% assign _lang = page.lang %}
 {% endif %}
+
+{%assign langurl = "/" | append: page.lang | append: "/" %}
+{% if page.url == "/" %}
+    {% capture baseurl %}/{% endcapture %}
+{% elsif langurl == "/en/"%}
+    {% capture baseurl %}{{langurl}}{% endcapture %}
+{% else %}
+    {% capture baseurl %}/{% endcapture %}
+{% endif %}
+
+
 <section id="footer" class="footer">
     <div class="container">
         <div class="row">
@@ -31,7 +42,7 @@
                 <ul>
                     {% for linkgroup in site.data.links %}
                         {% for link in linkgroup.infolinks %}
-                            <li><a href="{{link.path}}">{{link.name[_lang]}}</a></li>
+                            <li><a href="{{baseurl}}{{link.path[_lang]}}">{{link.name[_lang]}}</a></li>
                         {% endfor %}
                     {% endfor %}
                 </ul>

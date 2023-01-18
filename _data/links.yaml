@@ -16,22 +16,30 @@
       en: HeuristicLab
 - infolinks:
   - link: imprint
-    path: "/imprint"
+    path: 
+      de: "impressum"
+      en: "imprint"
     name:
       de: Impressum
       en: Imprint
   - link: dataprotection
-    path: "/dataprotection"
+    path: 
+      en: "dataprotection" 
+      de: "datenschutz"
     name:
-      de: Dataprotection
-      en: Datenschutz
+      de: Datenschutz
+      en: Dataprotection
   - link: sitemap
-    path: "/sitemap"
+    path:
+      de: "sitemap"
+      en: "sitemap"
     name:
       de: Sitemap
       en: Sitemap
   - link: contact
-    path: "#contact"
+    path:
+      de: "#contact"
+      en: "#contact"
     name:
       de: Kontakt
       en: Contact

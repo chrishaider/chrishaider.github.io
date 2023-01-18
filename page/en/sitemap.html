@@ -2,30 +2,35 @@
 title: Sitemap
 layout: subpage
 lang: en
-permalink: sitemap/
+permalink: en/sitemap/
 description: Linkliste zu allen Inhalten dieser Webseite
 ---
 
 <h1>Sitemap</h1>
 <br/>
-<h4>Startseite</h4>
+<h4>Starting Page</h4>
 <ul class="dash">
-    <li><a href="{{ site.baseurl }}/#body">{{ site.data.i18n.template.nav.home[page.lang] }}</a></li>
-    <li><a href="{{ site.baseurl }}/#project">{{ site.data.i18n.template.nav.project[page.lang] }}</a></li>    
-    <li><a href="{{ site.baseurl }}/#news">{{ site.data.i18n.template.nav.news[page.lang] }}</a></li>
-    <li><a href="{{ site.baseurl }}/#team">{{site.data.i18n.template.nav.team[page.lang] }}</a></li>
-    <li><a href="{{ site.baseurl }}/#contact">{{ site.data.i18n.template.nav.contact[page.lang] }}</a></li>
+    {% for item in site.data.nav %}
+        {% if item.hardlink == false %}
+        <li><a href="/{{page.lang}}/{{item['link']}}">{{item[page.lang]}}</a></li>
+        {% endif %}
+    {% endfor %}
 </ul>
 <br/>
-<h4>Subseiten</h4>
+<h4>Sub Sites</h4>
 <ul class="dash">
-    <li><a href="{{ site.baseurl }}/blog">{{ site.data.i18n.template.sub.blog[page.lang] }}</a></li>  
+    {% for item in site.data.nav %}
+        {% if item.hardlink == true %}
+        <li><a href="/{{item['link']}}">{{item[page.lang]}}</a></li>
+        {% endif %}
+    {% endfor %}
 </ul>
 <br/>
-<h4>Info</h4>
+<h4>Information Sites</h4>
 <ul class="dash">
-    <li><a href="{{ site.baseurl }}/impressum">{{ site.data.i18n.template.pages.imprint[page.lang] }}</a></li>
-    <li><a href="{{ site.baseurl }}/datenschutz">{{ site.data.i18n.template.pages.dataprotection[page.lang] }}</a></li>
-    <li><a href="{{ site.baseurl }}/pressematerial">{{ site.data.i18n.template.pages.press[page.lang] }}</a></li>
-    <li><a href="{{ site.baseurl }}/sitemap">{{ site.data.i18n.template.pages.sitemap[page.lang] }}</a></li>
+    {% for link in site.data.links %}
+        {% for info in link.infolinks %}
+            <li><a href="/{{page.lang}}/{{info.path[page.lang]}}">{{info.name[page.lang]}}</a></li>
+        {% endfor %}
+    {% endfor %}
 </ul>
