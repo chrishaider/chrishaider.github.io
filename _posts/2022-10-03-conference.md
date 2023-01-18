@@ -5,7 +5,7 @@ title: "Präsentation auf EuroCast"
 description: Präsentation des Paper auf der EuroCast Konferenz
 keywords: conference, eurocast, presentation
 date: 2022-09-16 14:57:23 +0200
-tags: Conference
+tags: "Dissemination"
 author: chaider
 image: /blog/resources/2022-10-03-eurocast/conference1.jpg
 ---

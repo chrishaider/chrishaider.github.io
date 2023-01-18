@@ -5,7 +5,7 @@ title: "FinCom auf github"
 description: Start unserer github-Präsenz
 keywords: Open Source, github, DevOps
 date: 2022-09-16 14:57:23 +0200
-tags: Open-Source
+tags: "Dissemination"
 author: chaider
 image: /blog/resources/2022-09-16-github/github.png
 ---
