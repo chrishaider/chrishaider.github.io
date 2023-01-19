@@ -60,7 +60,7 @@ members:
     prefix: Dr.
     postfix:
     position: 
-      de:  Assist.Professor in Digital Accounting
+      de:  Assistenz Professorin in Digital Accounting
       en:  Assist.Professor in Digital Accounting
     email: l.perkhofer@fh-steyr.at
     phone: 
@@ -104,7 +104,7 @@ members:
     prefix: 
     postfix: BA
     position: 
-      de:  Wissenschaftlicher Mitarbeiter
+      de:  Wissenschaftliche Mitarbeiterin
       en:  Research Associate
     email: lydia.darmann@fh-steyr.at
     phone: 
@@ -137,7 +137,7 @@ members:
     prefix: 
     postfix: BA
     position: 
-      de:  Wissenschaftlicher Mitarbeiter
+      de:  Wissenschaftliche Mitarbeiterin
       en:  Research Associate
     email: theresa.gruensteidl@fh-steyr.at
     phone: 
@@ -159,7 +159,7 @@ members:
     prefix: 
     postfix: MSc
     position: 
-      de:  Wissenschaftlicher Mitarbeiter
+      de:  Wissenschaftliche Mitarbeiterin
       en:  Research Associate
     email: natasha.tralkovska@fh-hagenberg.at
     phone: 
