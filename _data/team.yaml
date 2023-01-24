@@ -5,8 +5,8 @@ members:
     prefix: Mag. Dr.
     postfix:
     position: 
-      de: Professor für Finanz-Risikomanagement
-      en: Professor for Financial Risk Management
+      de: Professor für Finanz- und Risikomanagement
+      en: Professor for Financial- and Risk Management
     email: stefan.fink@fh-steyr.at
     phone: +43 5 0804 33717
     image: sfink.png
@@ -60,8 +60,8 @@ members:
     prefix: Dr.
     postfix:
     position: 
-      de:  Assistenz Professorin in Digital Accounting
-      en:  Assist.Professor in Digital Accounting
+      de:  Assistenz Professorin
+      en:  Assistant Professor
     email: l.perkhofer@fh-steyr.at
     phone: 
     image: lperkhofer.jpg
@@ -141,7 +141,7 @@ members:
       en:  Research Associate
     email: theresa.gruensteidl@fh-steyr.at
     phone: 
-    image: tgruensteidl.png
+    image: tgruensteidl.jpg
   - short: chofbauer
     firstname: Christian
     lastname: Hofbauer
@@ -155,7 +155,7 @@ members:
     image: chofbauer.png
   - short: ntralkovska
     firstname: Natasha
-    lastname: Tralkovska
+    lastname: Trajkovska
     prefix: 
     postfix: MSc
     position: 

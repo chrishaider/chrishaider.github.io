@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: de
-title: "FinCom auf github"
+title: "FinCoM auf github"
 description: Start unserer github-Präsenz
 keywords: Open Source, github, DevOps
 date: 2022-09-16 14:57:23 +0200
